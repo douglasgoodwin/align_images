@@ -2,7 +2,8 @@ import os
 import sys
 import bz2
 import argparse
-from keras.utils import get_file
+# from keras.utils import get_file
+from tensorflow.keras.utils import get_file
 from ffhq_dataset.face_alignment import image_align
 from ffhq_dataset.landmarks_detector import LandmarksDetector
 import multiprocessing
